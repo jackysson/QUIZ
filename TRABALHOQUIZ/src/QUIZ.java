@@ -2,53 +2,143 @@ import java.util.Scanner;
 
 class Quiz {
 
+    private static System String;
+
     public static void cabecalho() {
 
-         System.out.println("Faculdade: Unifan.");
+        System.out.println("Faculdade: Unifan.");
         System.out.println("Aluno: Jackysson willyan Rios Mota.");
         System.out.println("Professor: Brenno.");
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("Bem vindo ao QUIZ." +
                 "você irá ser testado sobre seus conhecimetos em redes de internet" +
                 "boa sorte");
+
         System.out.println("-------//-------//-------//-------//-------");
     }
-    //NOME E CONTADOR
+    //INICIALIZAÇÃO DO PROJETO
+
     public static void main(String[] args) {
-        int contador = 0;
-        cabecalho();
-        Scanner n = new Scanner(System.in);
-        System.out.println("");
-        System.out.println("-------//-------//-------//-------//-------");
 
-       //QUESTÕES 1-15
-        //PERGUNTA 01
+        //BASE DO QUIZ
 
-        String questao = "QUESTÃO 01: Qual dos protocolos abaixo" +
-                " é responsável por controlar o fluxo de dados na Internet," +
-                " dividindo grandes pacotes de dados em pacotes menores e garantindo" +
-                " a entrega ordenada desses pacotes ao destino??";
+        class item {
 
-        System.out.println(questao);
+            //PERGUNTAS
+            String questions = "";
+            String A = "";
+            String B = "";
+            String C = "";
+            String D = "";
+            String E = "";
+            String correta = "";
 
-        System.out.println("Alternativas");
+            public void escrevaresposta() {
+                System.out.println(this.questions);
+                System.out.println();
+                System.out.println(this.A);
+                System.out.println(this.B);
+                System.out.println(this.C);
+                System.out.println(this.D);
+                System.out.println(this.E);
+                System.out.println();
+            }
 
-        System.out.println("[A]  HTTP");
-        System.out.println("[B]  FTP");
-        System.out.println("[C]  TCP");
-        System.out.println("[D]  UDP");
-        System.out.println("[E]  SMTP");
+            //RESPOSTA CORRETA E ERRADA
+            public boolean verdadeira () {
+                String resposta = leiaResposta();
+                if (resposta.equalsIgnoreCase(this.correta)) {
+                    System.out.println("");
+                    System.out.println("-------//-------//-------//-------//-------");
+                    System.out.println("Boa, é isso aí: " + this.correta);
+                    return true;
 
-        System.out.println("Digite sua resposta:");
-        String resposta = scanner.nextLine();
+                } else {
+                    System.out.println("");
+                    System.out.println("-------//-------//-------//-------//-------");
+                    System.out.println("Resposta errada, a resposta é: " + this.correta);
+                    return false;
+                }
+            }
 
-        if(resposta.equals("c")){
-            System.out.println("Resposta correta!");
-        } else{
-            System.out.println("Resposta errada!");
+            //LEITURA RESPOSTA
+            public String leiaResposta() {
+                Scanner ler = new Scanner(System.in);
+                String r;
+                do {
+                    System.out.println("Escreva sua resposta: ");
+                    r = ler.next();
+                } while (!respostaValida(r));
+                return r;
+
+            }
+
+            private boolean respostaValida(String resp) {
+                if (resp.equalsIgnoreCase("A") ||
+                        resp.equalsIgnoreCase("B") ||
+                        resp.equalsIgnoreCase("C") ||
+                        resp.equalsIgnoreCase("D") ||
+                        resp.equalsIgnoreCase("E")) {
+                    return true;
+                }
+                System.out.println("Digite apenas uma das alternativas: A, B, C, D ou E.");
+                System.out.println("-------//-------//-------//-------//-------//-------");
+                return false;
+            }
         }
 
 
+        int contador = 0;
+        cabecalho();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("");
+        System.out.println("-------//-------//-------//-------//-------");
+
+
+        //QUESTÕES 1-15
+        //PERGUNTA 01
+
+        System.out.println("QUESTÃO 01: Qual dos protocolos abaixo é"+
+                "responsável por controlar o fluxo de dados na Internet," +
+                "dividindo grandes pacotes de dados em pacotes menores e garantindo" +
+                "a entrega ordenada desses pacotes ao destino??");
+        item alter1 = new item();
+        alter1.A = "[A]  HTTP";
+        alter1.B = "[B]  FTP";
+        alter1.C = "[C]  TCP";
+        alter1.D = "[D]  UDP";
+        alter1.E = "[E]  SMTP";
+        alter1.correta = "C";
+
+        alter1.escrevaresposta();
+        if(alter1.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
+        //PERGUNTA 02
+
+        System.out.println("QUESTÃO 02: Qual dispositivo de rede é responsável" +
+                " por conectar diferentes redes e realizar " +
+                "o roteamento de pacotes entre elas??");
+
+        item alter2 = new item();
+        alter2.A = "[A] Hub";
+        alter2.B = "[B] Switch";
+        alter2.C = "[C] Roteador";
+        alter2.D = "[D] Modem";
+        alter2.E = "[E] Repetidor";
+        alter2.correta = "B";
+
+        alter1.escrevaresposta();
+        if(alter2.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
 
     }
 }
