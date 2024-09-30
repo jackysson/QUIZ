@@ -222,5 +222,25 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+           //PERGUNTA 07
+
+        System.out.println("QUESTÃO 07:  Qual é a principal diferença entre uma LAN e uma WAN?");
+
+        item alter7 = new item();
+        alter7.A = "[A] A LAN é maior e mais rápida que a WAN.";
+        alter7.B = "[B] A LAN abrange uma área geográfica maior que a WAN.";
+        alter7.C = "[C] A LAN utiliza tecnologias wireless, enquanto a WAN utiliza cabos.";
+        alter7.D = "[D] A LAN conecta dispositivos em uma área local, enquanto a WAN conecta redes distantes ";
+        alter7.E = "[E] A LAN é utilizada para redes domésticas, enquanto a WAN é utilizada para redes empresariais.";
+        alter7.correta = "D";
+
+        alter7.escrevaresposta();
+        if(alter7.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
     }
 }
