@@ -302,6 +302,26 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        //PERGUNTA 11
+
+        System.out.println("QUESTÃO 11: O que é uma VPN?");
+
+        item alter11 = new item();
+        alter11.A = "[A] Uma rede privada virtual que permite a conexão segura a uma rede remota.";
+        alter11.B = "[B] Um tipo de vírus de computador.";
+        alter11.C = "[C] Um dispositivo de hardware utilizado para conectar redes.";
+        alter11.D = "[D] Um protocolo utilizado para transferir arquivos. ";
+        alter11.E = "[E] Um software que permite a navegação anônima na internet.";
+        alter11.correta = "A";
+
+        alter10.escrevaresposta();
+        if(alter11.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
 
     }
 }
