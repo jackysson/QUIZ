@@ -14,6 +14,7 @@ class Quiz {
         System.out.println("Bem vindo ao QUIZ." +
                 "você irá ser testado sobre seus conhecimetos em redes de internet" +
                 "boa sorte");
+        System.out.println("Para ser aprovado tenha 7 acertos ou mais");
 
     }
     //INICIALIZAÇÃO DO PROJETO
@@ -401,6 +402,18 @@ class Quiz {
         System.out.println("você acertou até agora: " +contador+"/15");
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
+
+        //CONTADOR DE TOTAL DE ACERTOS
+        System.out.println("Você chegou ao final do QUIZ");
+        System.out.println("O seu total de acertos foram: "+contador+"/15");
+
+        //APROVADO OU REPROVADO?
+        if (contador > 7){
+            System.out.println("Parabéns, você foi aprovado");
+        }
+        else {
+            System.out.println("Reprovado, Tente novamente");
+}
 
 
     }
