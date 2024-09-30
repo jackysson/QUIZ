@@ -140,5 +140,25 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        //PERGUNTA 03
+
+        System.out.println("QUESTÃO 03: Qual das alternativas define melhor o que é uma rede de computadores");
+
+        item alter3 = new item();
+        alter3.A = "[A] Um conjunto de dispositivos interligados capazes de compartilhar recursos e informações.";
+        alter3.B = "[B] Um único computador com alta capacidade de processamento e armazenamento";
+        alter3.C = "[C] Um software que permite a comunicação entre diferentes dispositivos.";
+        alter3.D = "[D] Um cabo de rede utilizado para conectar diversos equipamentos";
+        alter3.E = "[E] Um servidor central que controla todos os dispositivos conectados";
+        alter3.correta = "A";
+
+        alter3.escrevaresposta();
+        if(alter3.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
     }
 }
