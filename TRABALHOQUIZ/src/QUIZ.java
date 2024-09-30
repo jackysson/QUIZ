@@ -160,5 +160,25 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        //PERGUNTA 04
+
+        System.out.println("QUESTÃO 03:  Qual é a principal função do protocolo TCP/IP?");
+
+        item alter4 = new item();
+        alter4.A = "[A] Gerenciar o tráfego de dados em uma rede local";
+        alter4.B = "[B] Converter dados digitais em sinais analógicos para transmissão.";
+        alter4.C = "[C] Garantir a segurança da comunicação entre dispositivos.";
+        alter4.D = "[D] Dividir dados em pacotes e garantir a entrega correta.";
+        alter4.E = "[E] Criar páginas web e torná-las acessíveis na internet.";
+        alter4.correta = "D";
+
+        alter4.escrevaresposta();
+        if(alter4.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
     }
 }
