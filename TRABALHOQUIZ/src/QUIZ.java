@@ -322,6 +322,26 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        //PERGUNTA 12
+
+        System.out.println("QUESTÃO 12:  Qual das seguintes opções NÃO é um tipo de ataque cibernético?");
+
+        item alter12 = new item();
+        alter12.A = "[A] Phishing";
+        alter12.B = "[B] DDoS";
+        alter12.C = "[C] Malware";
+        alter12.D = "[D] Firewall ";
+        alter12.E = "[E] Engenharia social";
+        alter12.correta = "D";
+
+        alter10.escrevaresposta();
+        if(alter12.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
 
     }
 }
