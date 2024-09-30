@@ -9,12 +9,12 @@ class Quiz {
         System.out.println("Faculdade: Unifan.");
         System.out.println("Aluno: Jackysson willyan Rios Mota.");
         System.out.println("Professor: Brenno.");
+        System.out.println("Matéria: Programação II.");
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("Bem vindo ao QUIZ." +
                 "você irá ser testado sobre seus conhecimetos em redes de internet" +
                 "boa sorte");
 
-        System.out.println("-------//-------//-------//-------//-------");
     }
     //INICIALIZAÇÃO DO PROJETO
 
