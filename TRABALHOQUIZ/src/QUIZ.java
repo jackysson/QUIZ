@@ -242,5 +242,26 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+         //PERGUNTA 08
+
+        System.out.println("QUESTÃO 08:  Qual protocolo é utilizado para enviar e receber e-mails?");
+
+        item alter8 = new item();
+        alter8.A = "[A] HTTP";
+        alter8.B = "[B] FTP";
+        alter8.C = "[C] SMTP";
+        alter8.D = "[D] DNS ";
+        alter8.E = "[E] POP3";
+        alter8.correta = "C";
+
+        alter8.escrevaresposta();
+        if(alter8.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
+
     }
 }
