@@ -18,7 +18,6 @@ class Quiz {
         int contador = 0;
         cabecalho();
         Scanner n = new Scanner(System.in);
-        System.out.println("Como posso te chamar? ");
         System.out.println("");
         System.out.println("-------//-------//-------//-------//-------");
 
