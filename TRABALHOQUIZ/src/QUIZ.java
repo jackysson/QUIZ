@@ -119,6 +119,11 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        int contadore1 = 1 - contador;
+        System.out.println("Você errou atè agora: " +contadore1+ "/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
         //PERGUNTA 02
 
         System.out.println("QUESTÃO 02: Qual dispositivo de rede é responsável" +
@@ -141,6 +146,12 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        int contadore2 = 2 - contador;
+        System.out.println("Você errou atè agora: " +contadore2+ "/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
+
         //PERGUNTA 03
 
         System.out.println("QUESTÃO 03: Qual das alternativas define melhor o que é uma rede de computadores");
@@ -158,6 +169,11 @@ class Quiz {
             contador++;
         }
         System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
+        int contadore3 = 3 - contador;
+        System.out.println("Você errou atè agora: " +contadore3+ "/15");
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
@@ -181,6 +197,12 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        int contadore4 = 4 - contador;
+        System.out.println("Você errou atè agora: " +contadore4+ "/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
+
         //PERGUNTA 05
 
         System.out.println("QUESTÃO 05:  Qual das seguintes topologias de rede " +
@@ -200,6 +222,11 @@ class Quiz {
             contador++;
         }
         System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
+        int contadore5 = 5 - contador;
+        System.out.println("Você errou atè agora: " +contadore5+ "/15");
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
@@ -223,6 +250,11 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        int contadore6 = 6 - contador;
+        System.out.println("Você errou atè agora: " +contadore6+ "/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
            //PERGUNTA 07
 
         System.out.println("QUESTÃO 07:  Qual é a principal diferença entre uma LAN e uma WAN?");
@@ -240,6 +272,11 @@ class Quiz {
             contador++;
         }
         System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
+         int contadore7 = 7 - contador;
+        System.out.println("Você errou atè agora: " +contadore7+ "/15");
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
@@ -263,6 +300,11 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        int contadore8 = 8 - contador;
+        System.out.println("Você errou atè agora: " +contadore8+ "/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
         //PERGUNTA 09
 
         System.out.println("QUESTÃO 09:  O que é um firewall?");
@@ -280,6 +322,11 @@ class Quiz {
             contador++;
         }
         System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
+        int contadore9 = 9 - contador;
+        System.out.println("Você errou atè agora: " +contadore9+ "/15");
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
@@ -303,6 +350,11 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        int contadore10 = 10 - contador;
+        System.out.println("Você errou atè agora: " +contadore10+ "/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
         //PERGUNTA 11
 
         System.out.println("QUESTÃO 11: O que é uma VPN?");
@@ -320,6 +372,11 @@ class Quiz {
             contador++;
         }
         System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
+        int contadore11 = 11 - contador;
+        System.out.println("Você errou atè agora: " +contadore11+ "/15");
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
@@ -343,6 +400,11 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        int contadore12 = 12 - contador;
+        System.out.println("Você errou atè agora: " +contadore12+ "/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
         //PERGUNTA 13
 
         System.out.println("QUESTÃO 13: O que é um switch?");
@@ -360,6 +422,11 @@ class Quiz {
             contador++;
         }
         System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
+        int contadore13 = 13 - contador;
+        System.out.println("Você errou atè agora: " +contadore13+ "/15");
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
@@ -383,6 +450,11 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        int contadore14 = 14 - contador;
+        System.out.println("Você errou atè agora: " +contadore14+ "/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
          //PERGUNTA 15
 
         System.out.println("QUESTÃO 15: Qual é a principal diferença entre um cabo coaxial e um cabo de fibra óptica?");
@@ -403,9 +475,16 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        int contadore15 = 15 - contador;
+        System.out.println("Você errou atè agora: " +contadore15+ "/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
         //CONTADOR DE TOTAL DE ACERTOS
+        int contadore = 16 - contador;
         System.out.println("Você chegou ao final do QUIZ");
         System.out.println("O seu total de acertos foram: "+contador+"/15");
+        System.out.println("Você errou um total de: " +contadore+ "/15");
 
         //APROVADO OU REPROVADO?
         if (contador > 7){
