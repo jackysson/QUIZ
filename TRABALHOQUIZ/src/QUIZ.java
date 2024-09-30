@@ -282,6 +282,26 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+         //PERGUNTA 10
+
+        System.out.println("QUESTÃO 10: Qual é a principal função do protocolo DNS?");
+
+        item alter10 = new item();
+        alter10.A = "[A] Converter nomes de domínio em endereços IP..";
+        alter10.B = "[B] Garantir a segurança da comunicação na internet.";
+        alter10.C = "[C] Dividir dados em pacotes para transmissão.";
+        alter10.D = "[D] Gerenciar o tráfego de dados em uma rede local. ";
+        alter10.E = "[E] Criar páginas web e torná-las acessíveis na internet.";
+        alter10.correta = "A";
+
+        alter10.escrevaresposta();
+        if(alter10.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
 
     }
 }
