@@ -382,6 +382,26 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+         //PERGUNTA 15
+
+        System.out.println("QUESTÃO 15: Qual é a principal diferença entre um cabo coaxial e um cabo de fibra óptica?");
+
+        item alter15 = new item();
+        alter15.A = "[A] O cabo coaxial é mais rápido que o cabo de fibra óptica.";
+        alter15.B = "[B] O cabo coaxial é mais suscetível a interferências que o cabo de fibra óptica.";
+        alter15.C = "[C] O cabo coaxial é utilizado apenas em redes locais, enquanto o cabo de fibra óptica é utilizado em redes de longa distância.";
+        alter15.D = "[D] O cabo coaxial é mais barato que o cabo de fibra óptica. ";
+        alter15.E = "[E] O cabo coaxial utiliza sinais digitais, enquanto o cabo de fibra óptica utiliza sinais analógicos.";
+        alter15.correta = "B";
+
+        alter15.escrevaresposta();
+        if(alter15.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
 
     }
 }
