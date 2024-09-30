@@ -4,11 +4,13 @@ class Quiz {
 
     public static void cabecalho() {
 
-        System.out.println("Faculdade: Unifan.");
+         System.out.println("Faculdade: Unifan.");
         System.out.println("Aluno: Jackysson willyan Rios Mota.");
         System.out.println("Professor: Brenno.");
-        System.out.println("Bem vindo ao QUIZ.");
-        System.out.println("            Boa sorte .");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("Bem vindo ao QUIZ." +
+                "você irá ser testado sobre seus conhecimetos em redes de internet" +
+                "boa sorte");
         System.out.println("-------//-------//-------//-------//-------");
     }
     //NOME E CONTADOR
@@ -18,6 +20,7 @@ class Quiz {
         Scanner n = new Scanner(System.in);
         System.out.println("Como posso te chamar? ");
         System.out.println("");
+        System.out.println("-------//-------//-------//-------//-------");
 
 
         //QUESTÕES 1-15
