@@ -202,5 +202,25 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+         //PERGUNTA 06
+
+        System.out.println("QUESTÃO 06:  O que é um endereço IP?");
+
+        item alter6 = new item();
+        alter6.A = "[A] Um nome único atribuído a cada dispositivo em uma rede.";
+        alter6.B = "[B] Um número que identifica um dispositivo em uma rede.";
+        alter6.C = "[C] Um protocolo utilizado para enviar e-mails.";
+        alter6.D = "[D] Um tipo de cabo de rede";
+        alter6.E = "[E] Um software que permite a navegação na internet.";
+        alter6.correta = "B";
+
+        alter6.escrevaresposta();
+        if(alter6.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
     }
 }
