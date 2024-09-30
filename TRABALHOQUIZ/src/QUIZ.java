@@ -180,5 +180,27 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        //PERGUNTA 05
+
+        System.out.println("QUESTÃO 05:  Qual das seguintes topologias de rede " +
+                "é caracterizada por um único ponto central ao " +
+                "qual todos os dispositivos estão conectados?");
+
+        item alter5 = new item();
+        alter5.A = "[A] Barramento";
+        alter5.B = "[B] Estrela";
+        alter5.C = "[C] Anel";
+        alter5.D = "[D] Malha";
+        alter5.E = "[E] Híbrida";
+        alter5.correta = "B";
+
+        alter5.escrevaresposta();
+        if(alter5.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
     }
 }
