@@ -314,7 +314,7 @@ class Quiz {
         alter11.E = "[E] Um software que permite a navegação anônima na internet.";
         alter11.correta = "A";
 
-        alter10.escrevaresposta();
+        alter11.escrevaresposta();
         if(alter11.verdadeira()){
             contador++;
         }
@@ -334,8 +334,28 @@ class Quiz {
         alter12.E = "[E] Engenharia social";
         alter12.correta = "D";
 
-        alter10.escrevaresposta();
+        alter12.escrevaresposta();
         if(alter12.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
+        //PERGUNTA 13
+
+        System.out.println("QUESTÃO 13: O que é um switch?");
+
+        item alter13 = new item();
+        alter13.A = "[A] Um dispositivo que conecta vários computadores em uma rede, filtrando o tráfego de dados.";
+        alter13.B = "[B] Um programa utilizado para navegar na internet.";
+        alter13.C = "[C] Um tipo de vírus de computador.";
+        alter13.D = "[D] Um protocolo utilizado para transferir arquivos. ";
+        alter13.E = "[E] Um cabo de rede de alta velocidade";
+        alter13.correta = "A";
+
+        alter13.escrevaresposta();
+        if(alter13.verdadeira()){
             contador++;
         }
         System.out.println("você acertou até agora: " +contador+"/15");
