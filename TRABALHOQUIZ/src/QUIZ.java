@@ -262,6 +262,26 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+        //PERGUNTA 09
+
+        System.out.println("QUESTÃO 09:  O que é um firewall?");
+
+        item alter9 = new item();
+        alter9.A = "[A] Um dispositivo de hardware ou software que monitora o tráfego de rede e bloqueia acessos não autorizados.";
+        alter9.B = "[B] Um programa utilizado para navegar na internet.";
+        alter9.C = "[C] Um tipo de vírus de computador";
+        alter9.D = "[D] Um protocolo utilizado para transferir arquivos. ";
+        alter9.E = "[E] Um cabo de rede de alta velocidade.";
+        alter9.correta = "A";
+
+        alter9.escrevaresposta();
+        if(alter9.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
 
     }
 }
