@@ -21,16 +21,17 @@ class Quiz {
         System.out.println("");
         System.out.println("-------//-------//-------//-------//-------");
 
-
-        //QUESTÕES 1-15
+       //QUESTÕES 1-15
         //PERGUNTA 01
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("QUESTÃO 01: Qual dos protocolos abaixo" +
+
+        String questao = "QUESTÃO 01: Qual dos protocolos abaixo" +
                 " é responsável por controlar o fluxo de dados na Internet," +
                 " dividindo grandes pacotes de dados em pacotes menores e garantindo" +
-                " a entrega ordenada desses pacotes ao destino??");
+                " a entrega ordenada desses pacotes ao destino??";
 
-        System.out.println("Alternativa");
+        System.out.println(questao);
+
+        System.out.println("Alternativas");
 
         System.out.println("[A]  HTTP");
         System.out.println("[B]  FTP");
@@ -38,7 +39,7 @@ class Quiz {
         System.out.println("[D]  UDP");
         System.out.println("[E]  SMTP");
 
-        System.out.println("Digite sua resposta: ");
+        System.out.println("Digite sua resposta:");
         String resposta = scanner.nextLine();
 
         if(resposta.equals("c")){
@@ -47,29 +48,7 @@ class Quiz {
             System.out.println("Resposta errada!");
         }
 
-        //QUETÃO 02
-        Scanner scanner2 = new Scanner(System.in);
-        System.out.println("QUESTÃO 02: Qual dispositivo de rede é responsável" +
-                " por conectar diferentes redes e realizar " +
-                "o roteamento de pacotes entre elas??");
 
-        System.out.println("Alternativa");
 
-        System.out.println("[A] Hub");
-        System.out.println("[B] Switch");
-        System.out.println("[C] Roteador");
-        System.out.println("[D] Modem");
-        System.out.println("[E] Repetidor");
-
-        System.out.println("Digite sua resposta: ");
-        String resposta2 = scanner2.nextLine();
-
-        if(resposta2.equals("b")){
-            System.out.println("Resposta correta!");
-        } else{
-            System.out.println("Resposta errada!");
-
-      }
-}
-
+    }
 }
