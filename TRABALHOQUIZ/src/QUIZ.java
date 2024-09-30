@@ -362,6 +362,26 @@ class Quiz {
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("");
 
+         //PERGUNTA 14
+
+        System.out.println("QUESTÃO 14: Qual é a importância da segmentação de redes?");
+
+        item alter14 = new item();
+        alter14.A = "[A] Aumenta a velocidade da rede.";
+        alter14.B = "[B] Diminui o risco de ataques cibernéticos.";
+        alter14.C = "[C] Aumenta o número de dispositivos que podem ser conectados à rede.";
+        alter14.D = "[D] Simplifica a configuração da rede. ";
+        alter14.E = "[E] Todas as alternativas estão corretas.";
+        alter14.correta = "B";
+
+        alter14.escrevaresposta();
+        if(alter14.verdadeira()){
+            contador++;
+        }
+        System.out.println("você acertou até agora: " +contador+"/15");
+        System.out.println("-------//-------//-------//-------//-------");
+        System.out.println("");
+
 
     }
 }
