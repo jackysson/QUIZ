@@ -99,7 +99,7 @@ class Quiz {
         //QUESTÕES 1-15
         //PERGUNTA 01
 
-        System.out.println("QUESTÃO 01: Qual dos protocolos abaixo é"+
+        System.out.println("QUESTÃO 00001: Qual dos protocolos abaixo é"+
                 "responsável por controlar o fluxo de dados na Internet," +
                 "dividindo grandes pacotes de dados em pacotes menores e garantindo" +
                 "a entrega ordenada desses pacotes ao destino??");
