@@ -8,7 +8,8 @@ class Quiz {
 
         System.out.println("Faculdade: Unifan.");
         System.out.println("Aluno: Jackysson willyan Rios Mota.");
-        System.out.println("Professor: Brenno.");
+        System.out.println("Matéria: Programação II.");
+        System.out.println("Materia: Segurança da informação.");
         System.out.println("Matéria: Programação II.");
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("Bem vindo ao QUIZ." +
