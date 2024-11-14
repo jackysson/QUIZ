@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.text.DecimalFormat;
+
 
 class Quiz {
 
@@ -8,8 +10,7 @@ class Quiz {
 
         System.out.println("Faculdade: Unifan.");
         System.out.println("Aluno: Jackysson willyan Rios Mota.");
-        System.out.println("Matéria: Programação II.");
-        System.out.println("Materia: Segurança da informação.");
+        System.out.println("Curso: Segurança da informação.");
         System.out.println("Matéria: Programação II.");
         System.out.println("-------//-------//-------//-------//-------");
         System.out.println("Bem vindo ao QUIZ." +
@@ -100,11 +101,11 @@ class Quiz {
         //QUESTÕES 1-15
         //PERGUNTA 01
 
-        System.out.println("QUESTÃO 00001: Qual dos protocolos abaixo é"+
+        System.out.println("QUESTÃO 01: Qual dos protocolos abaixo é"+
                 "responsável por controlar o fluxo de dados na Internet," +
                 "dividindo grandes pacotes de dados em pacotes menores e garantindo" +
                 "a entrega ordenada desses pacotes ao destino??");
-        Item alter1 = new item();
+        Item alter1 = new Item();
         alter1.A = "[A]  HTTP";
         alter1.B = "[B]  FTP";
         alter1.C = "[C]  TCP";
@@ -131,7 +132,7 @@ class Quiz {
                 " por conectar diferentes redes e realizar " +
                 "o roteamento de pacotes entre elas??");
 
-        Item alter2 = new item();
+        Item alter2 = new Item();
         alter2.A = "[A] Hub";
         alter2.B = "[B] Switch";
         alter2.C = "[C] Roteador";
@@ -157,7 +158,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 03: Qual das alternativas define melhor o que é uma rede de computadores");
 
-        Item alter3 = new item();
+        Item alter3 = new Item();
         alter3.A = "[A] Um conjunto de dispositivos interligados capazes de compartilhar recursos e informações.";
         alter3.B = "[B] Um único computador com alta capacidade de processamento e armazenamento";
         alter3.C = "[C] Um software que permite a comunicação entre diferentes dispositivos.";
@@ -182,7 +183,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 03:  Qual é a principal função do protocolo TCP/IP?");
 
-        Item alter4 = new item();
+        Item alter4 = new Item();
         alter4.A = "[A] Gerenciar o tráfego de dados em uma rede local";
         alter4.B = "[B] Converter dados digitais em sinais analógicos para transmissão.";
         alter4.C = "[C] Garantir a segurança da comunicação entre dispositivos.";
@@ -210,7 +211,7 @@ class Quiz {
                 "é caracterizada por um único ponto central ao " +
                 "qual todos os dispositivos estão conectados?");
 
-        Item alter5 = new item();
+        Item alter5 = new Item();
         alter5.A = "[A] Barramento";
         alter5.B = "[B] Estrela";
         alter5.C = "[C] Anel";
@@ -235,7 +236,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 06:  O que é um endereço IP?");
 
-        Item alter6 = new item();
+        Item alter6 = new Item();
         alter6.A = "[A] Um nome único atribuído a cada dispositivo em uma rede.";
         alter6.B = "[B] Um número que identifica um dispositivo em uma rede.";
         alter6.C = "[C] Um protocolo utilizado para enviar e-mails.";
@@ -260,7 +261,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 07:  Qual é a principal diferença entre uma LAN e uma WAN?");
 
-        Item alter7 = new item();
+        Item alter7 = new Item();
         alter7.A = "[A] A LAN é maior e mais rápida que a WAN.";
         alter7.B = "[B] A LAN abrange uma área geográfica maior que a WAN.";
         alter7.C = "[C] A LAN utiliza tecnologias wireless, enquanto a WAN utiliza cabos.";
@@ -285,7 +286,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 08:  Qual protocolo é utilizado para enviar e receber e-mails?");
 
-        Item alter8 = new item();
+        Item alter8 = new Item();
         alter8.A = "[A] HTTP";
         alter8.B = "[B] FTP";
         alter8.C = "[C] SMTP";
@@ -310,7 +311,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 09:  O que é um firewall?");
 
-        Item alter9 = new item();
+        Item alter9 = new Item();
         alter9.A = "[A] Um dispositivo de hardware ou software que monitora o tráfego de rede e bloqueia acessos não autorizados.";
         alter9.B = "[B] Um programa utilizado para navegar na internet.";
         alter9.C = "[C] Um tipo de vírus de computador";
@@ -335,7 +336,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 10: Qual é a principal função do protocolo DNS?");
 
-        Item alter10 = new item();
+        Item alter10 = new Item();
         alter10.A = "[A] Converter nomes de domínio em endereços IP..";
         alter10.B = "[B] Garantir a segurança da comunicação na internet.";
         alter10.C = "[C] Dividir dados em pacotes para transmissão.";
@@ -360,7 +361,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 11: O que é uma VPN?");
 
-        Item alter11 = new item();
+        Item alter11 = new Item();
         alter11.A = "[A] Uma rede privada virtual que permite a conexão segura a uma rede remota.";
         alter11.B = "[B] Um tipo de vírus de computador.";
         alter11.C = "[C] Um dispositivo de hardware utilizado para conectar redes.";
@@ -385,7 +386,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 12:  Qual das seguintes opções NÃO é um tipo de ataque cibernético?");
 
-        Item alter12 = new item();
+        Item alter12 = new Item();
         alter12.A = "[A] Phishing";
         alter12.B = "[B] DDoS";
         alter12.C = "[C] Malware";
@@ -410,7 +411,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 13: O que é um switch?");
 
-        Item alter13 = new item();
+        Item alter13 = new Item();
         alter13.A = "[A] Um dispositivo que conecta vários computadores em uma rede, filtrando o tráfego de dados.";
         alter13.B = "[B] Um programa utilizado para navegar na internet.";
         alter13.C = "[C] Um tipo de vírus de computador.";
@@ -435,7 +436,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 14: Qual é a importância da segmentação de redes?");
 
-        Item alter14 = new item();
+        Item alter14 = new Item();
         alter14.A = "[A] Aumenta a velocidade da rede.";
         alter14.B = "[B] Diminui o risco de ataques cibernéticos.";
         alter14.C = "[C] Aumenta o número de dispositivos que podem ser conectados à rede.";
@@ -460,7 +461,7 @@ class Quiz {
 
         System.out.println("QUESTÃO 15: Qual é a principal diferença entre um cabo coaxial e um cabo de fibra óptica?");
 
-        Item alter15 = new item();
+        Item alter15 = new Item();
         alter15.A = "[A] O cabo coaxial é mais rápido que o cabo de fibra óptica.";
         alter15.B = "[B] O cabo coaxial é mais suscetível a interferências que o cabo de fibra óptica.";
         alter15.C = "[C] O cabo coaxial é utilizado apenas em redes locais, enquanto o cabo de fibra óptica é utilizado em redes de longa distância.";
@@ -493,7 +494,17 @@ class Quiz {
         }
         else {
             System.out.println("Reprovado, Tente novamente");
-}
+        }
+        // Calculando a porcentagem
+         double porcentagem = (contador / 15.0) * 100;
+
+        {
+            // Formatando a porcentagem com duas casas decimais
+            DecimalFormat df = new DecimalFormat("0.0");
+            String porcentagemFormatada = df.format(porcentagem);
+
+            System.out.println("A sua porcentagem de acertos é: " + porcentagemFormatada + "%");
+        }
 
 
     }
